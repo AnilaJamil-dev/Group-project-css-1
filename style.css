@@ -117,7 +117,7 @@
 }
 
 .mainpage {
-    width: 100%;
+ max-width: 1170px;
     height: 100vh;
     background-image:  url(IrM.gif);
     background-position: center;
@@ -240,7 +240,7 @@ p.slide-left {
 }
 .main {
     width: 1130px;
-    max-width: 95%;
+  max-width: 1170px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -347,7 +347,7 @@ align-items: center;
 }
 /* Anila all books */
 * {
-
+     max-width: 1170px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -459,6 +459,7 @@ align-items: center;
 
 /* Anila all films */
 * {
+     max-width: 1170px;
     box-sizing: border-box;
     font-family: lato, sans-serif;
     padding: 0;
@@ -575,7 +576,7 @@ header{
 
 /* Anila famous quotes */
 * {
-
+ max-width: 1170px;
     box-sizing: border-box;
    
 }
@@ -589,10 +590,10 @@ header{
    color: #fff
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 body{
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+/*     font-family: 'Poppins', sans-serif; */
 }
 *{
     margin: 0;
